@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="US_target_final.Top" size="40.000000 40.022820"/>
+        <ImageTarget name="US_target_final.Front" size="40.000000 40.022820"/>
+        <ImageTarget name="US_target_final.Left" size="40.000000 40.022820"/>
+        <ImageTarget name="US_target_final.Back" size="40.000000 40.022820"/>
+        <ImageTarget name="US_target_final.Right" size="40.000000 40.022820"/>
+        <ImageTarget name="US_target_final.Bottom" size="40.000000 40.022820"/>
+        <ImageTarget name="Phantom_target_final.Top" size="60.000000 60.058651"/>
+        <ImageTarget name="Phantom_target_final.Front" size="60.000000 60.058651"/>
+        <ImageTarget name="Phantom_target_final.Left" size="60.000000 60.058651"/>
+        <ImageTarget name="Phantom_target_final.Back" size="60.000000 60.058651"/>
+        <ImageTarget name="Phantom_target_final.Right" size="60.000000 60.058651"/>
+        <ImageTarget name="Phantom_target_final.Bottom" size="60.000000 60.058651"/>
+        <ImageTarget name="Needle_target.Top" size="2.000000 1.999158"/>
+        <ImageTarget name="Needle_target.Front" size="2.000000 1.999158"/>
+        <ImageTarget name="Needle_target.Left" size="2.000000 1.999158"/>
+        <ImageTarget name="Needle_target.Back" size="2.000000 1.999158"/>
+        <ImageTarget name="Needle_target.Right" size="2.000000 1.999158"/>
+        <ImageTarget name="Needle_target.Bottom" size="2.000000 1.999158"/>
+        <ImageTarget name="US_target2.Top" size="0.040000 0.040023"/>
+        <ImageTarget name="US_target2.Front" size="0.040000 0.040023"/>
+        <ImageTarget name="US_target2.Left" size="0.040000 0.040023"/>
+        <ImageTarget name="US_target2.Back" size="0.040000 0.040023"/>
+        <ImageTarget name="US_target2.Right" size="0.040000 0.040023"/>
+        <ImageTarget name="US_target2.Bottom" size="0.040000 0.040023"/>
+        <ImageTarget name="US_target.Top" size="4.000000 4.002282"/>
+        <ImageTarget name="US_target.Front" size="4.000000 4.002282"/>
+        <ImageTarget name="US_target.Left" size="4.000000 4.002282"/>
+        <ImageTarget name="US_target.Back" size="4.000000 4.002282"/>
+        <ImageTarget name="US_target.Right" size="4.000000 4.002282"/>
+        <ImageTarget name="US_target.Bottom" size="4.000000 4.002282"/>
+        <ImageTarget name="Phantom_target2.Top" size="0.060000 0.060059"/>
+        <ImageTarget name="Phantom_target2.Front" size="0.060000 0.060059"/>
+        <ImageTarget name="Phantom_target2.Left" size="0.060000 0.060059"/>
+        <ImageTarget name="Phantom_target2.Back" size="0.060000 0.060059"/>
+        <ImageTarget name="Phantom_target2.Right" size="0.060000 0.060059"/>
+        <ImageTarget name="Phantom_target2.Bottom" size="0.060000 0.060059"/>
+        <ImageTarget name="Phantom_target.Top" size="6.000000 6.005865"/>
+        <ImageTarget name="Phantom_target.Front" size="6.000000 6.005865"/>
+        <ImageTarget name="Phantom_target.Left" size="6.000000 6.005865"/>
+        <ImageTarget name="Phantom_target.Back" size="6.000000 6.005865"/>
+        <ImageTarget name="Phantom_target.Right" size="6.000000 6.005865"/>
+        <ImageTarget name="Phantom_target.Bottom" size="6.000000 6.005865"/>
+        <MultiTarget name="US_target_final">
+            <Part name="US_target_final.Left" translation="-20.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="US_target_final.Right" translation="20.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="US_target_final.Front" translation="0 0 20.0" rotation="AD: 1 0 0 0"/>
+            <Part name="US_target_final.Back" translation="0 0 -20.0" rotation="AD: 0 1 0 180"/>
+            <Part name="US_target_final.Top" translation="0 20.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="US_target_final.Bottom" translation="0 -20.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Phantom_target_final">
+            <Part name="Phantom_target_final.Left" translation="-30.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Phantom_target_final.Right" translation="30.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Phantom_target_final.Front" translation="0 0 30.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Phantom_target_final.Back" translation="0 0 -30.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Phantom_target_final.Top" translation="0 30.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Phantom_target_final.Bottom" translation="0 -30.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Needle_target">
+            <Part name="Needle_target.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Needle_target.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Needle_target.Front" translation="0 0 1.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Needle_target.Back" translation="0 0 -1.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Needle_target.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Needle_target.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="US_target2">
+            <Part name="US_target2.Left" translation="-0.019999999552965164 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="US_target2.Right" translation="0.019999999552965164 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="US_target2.Front" translation="0 0 0.019999999552965164" rotation="AD: 1 0 0 0"/>
+            <Part name="US_target2.Back" translation="0 0 -0.019999999552965164" rotation="AD: 0 1 0 180"/>
+            <Part name="US_target2.Top" translation="0 0.019999999552965164 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="US_target2.Bottom" translation="0 -0.019999999552965164 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="US_target">
+            <Part name="US_target.Left" translation="-2.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="US_target.Right" translation="2.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="US_target.Front" translation="0 0 2.0" rotation="AD: 1 0 0 0"/>
+            <Part name="US_target.Back" translation="0 0 -2.0" rotation="AD: 0 1 0 180"/>
+            <Part name="US_target.Top" translation="0 2.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="US_target.Bottom" translation="0 -2.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Phantom_target2">
+            <Part name="Phantom_target2.Left" translation="-0.029999999329447746 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Phantom_target2.Right" translation="0.029999999329447746 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Phantom_target2.Front" translation="0 0 0.029999999329447746" rotation="AD: 1 0 0 0"/>
+            <Part name="Phantom_target2.Back" translation="0 0 -0.029999999329447746" rotation="AD: 0 1 0 180"/>
+            <Part name="Phantom_target2.Top" translation="0 0.029999999329447746 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Phantom_target2.Bottom" translation="0 -0.029999999329447746 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Phantom_target">
+            <Part name="Phantom_target.Left" translation="-3.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Phantom_target.Right" translation="3.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Phantom_target.Front" translation="0 0 3.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Phantom_target.Back" translation="0 0 -3.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Phantom_target.Top" translation="0 3.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Phantom_target.Bottom" translation="0 -3.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

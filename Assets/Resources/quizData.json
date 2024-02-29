@@ -1,0 +1,21 @@
+{
+    "questions": [
+      {
+        "question": "How many vessels are in the phantom?",
+        "answers": ["3", "2", "4", "5"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is the correct structure of the phantom?",
+        "answers": ["Image 1", "Image 2", "Image 3", "Image 4"],
+        "correctAnswerIndex": 0,
+        "imagePaths": ["answer1", "answer2", "answer3", "answer4"]
+      },
+      {
+        "question": "In this Ultrasound image, what technique is used?",
+        "answers": ["Long-Axis", "Short-Axis", "Image 3", "Image 4"],
+        "correctAnswerIndex": 1,
+        "imagePaths": ["short1"]
+      }
+    ]
+  } 
